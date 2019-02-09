@@ -4,4 +4,4 @@ A curated list of useful ReactJs snippets that can skyrocket your development ti
 
 ## 🔌 Installation
 
-## ✏ Usage
+## ✍ Usage
