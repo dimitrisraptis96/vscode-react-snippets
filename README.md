@@ -1,2 +1,7 @@
 # vscode-react-snippets
-🧠 Skyrocket your VSCode development with some useful ReactJs snippets
+
+A curated list of useful ReactJs snippets that can skyrocket your development time and productivity 🧠
+
+## 🔌 Installation
+
+## ✏ Usage
