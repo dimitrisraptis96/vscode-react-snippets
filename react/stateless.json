@@ -1,0 +1,19 @@
+{
+  "Stateless component": {
+    "prefix": "dumb",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const $1 = ({$2}) => {",
+      "\t",
+      "\treturn(",
+      "\t\t$3",
+      "\t);",
+      "};",
+      "",
+      "export default $1;",
+      ""
+    ],
+    "description": "Stateless component's skeleton"
+  },
+}
