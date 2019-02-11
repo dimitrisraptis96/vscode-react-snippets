@@ -1,0 +1,9 @@
+{
+  "styled-components theme": {
+    "prefix": "theme",
+    "body": [
+      "${(props) => props.theme.$1}$2",
+    ],
+    "description": "Access styled-components theme"
+  },  
+}
