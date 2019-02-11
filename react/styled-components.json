@@ -1,0 +1,13 @@
+{
+  "styled-components Skeleton": {
+    "prefix": "styled",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "const $1 = styled.$2`",
+      "\t$3",
+      "`;"
+    ],
+    "description": "Create a styled-components skeleton"
+  },
+}
