@@ -1,5 +1,5 @@
 {
-  "Statefull component": {
+  "Stateful component": {
     "prefix": "clever",
     "body": [
       "import React from 'react';",
