@@ -1,0 +1,26 @@
+{
+  "Statefull component": {
+    "prefix": "clever",
+    "body": [
+      "import React from 'react';",
+      "",
+      "class $1 extends React.Component {",
+      "\t",
+      "\tstate = {",
+      "\t\t$2: $3,",
+      "\t}",
+      "",
+      "\trender(){",
+      "\t\t$4",
+      "\t\treturn(",
+      "\t\t\t$5",
+      "\t\t);",
+      "\t}",
+      "};",
+      "",
+      "export default $1;",
+      ""
+    ],
+    "description": "Stateful component skeleton"
+  },
+}
