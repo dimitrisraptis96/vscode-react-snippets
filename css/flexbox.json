@@ -1,0 +1,13 @@
+{
+  "Create a flexbox": {
+    "prefix": "flex",
+    "body": [
+      "display: flex;",
+      "flex-direction: ${1:row};",
+      "justify-content: ${2:center};",
+      "align-items: ${3:center};",
+      "$4",
+    ],
+    "description": "Add a flexbox skeleton"
+  }
+}
