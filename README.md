@@ -18,12 +18,14 @@ You're ready to use your awesome snippet 💪
 ## 🤸‍♂️ Usage
 
 1. Type the prefix you defined earlier
-2. Choose your snippet and press **TAB**
-3. Navigate through your snippet variables by pressing **TAB** again
+2. Choose your snippet
+3. Press **TAB** to navigate through your snippet variables
 
 <p align="center">
   <img src ="./assets/usage.gif" />
 </p>
+
+Drop me a line if I helped you 🍻
 
 &nbsp;
 
