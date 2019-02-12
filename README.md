@@ -19,4 +19,4 @@ You're ready to use your awesome snippet 💪
 2. Choose your snippet and press **TAB**
 3. Navigate through your snippet variables by pressing **TAB** again
 
-![](./assets/installation.gif)
+![](./assets/usage.gif)
