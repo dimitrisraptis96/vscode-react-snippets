@@ -24,3 +24,9 @@ You're ready to use your awesome snippet 💪
 <p align="center">
   <img src ="./assets/usage.gif" />
 </p>
+
+&nbsp;
+
+<p align="center">
+<sub><sup>Made with 🤘 by <a href="https://twitter.com/d__raptis">@d__raptis</a></sup></sub>
+</p>
