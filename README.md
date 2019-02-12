@@ -11,7 +11,9 @@ A curated list of useful ReactJs snippets that can skyrocket your development ti
 
 You're ready to use your awesome snippet 💪
 
-![](./assets/installation.gif)
+<p align="center">
+  <img src ="./assets/installation.gif" />
+</p>
 
 ## ✍ Usage
 
@@ -19,4 +21,6 @@ You're ready to use your awesome snippet 💪
 2. Choose your snippet and press **TAB**
 3. Navigate through your snippet variables by pressing **TAB** again
 
-![](./assets/usage.gif)
+<p align="center">
+  <img src ="./assets/usage.gif" />
+</p>
