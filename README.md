@@ -15,7 +15,7 @@ You're ready to use your awesome snippet 💪
   <img src ="./assets/installation.gif" />
 </p>
 
-## ✍ Usage
+## 🤸‍♂️ Usage
 
 1. Type the prefix you defined earlier
 2. Choose your snippet and press **TAB**
