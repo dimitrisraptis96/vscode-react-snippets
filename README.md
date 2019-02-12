@@ -25,8 +25,6 @@ You're ready to use your awesome snippet 💪
   <img src ="./assets/usage.gif" />
 </p>
 
-Drop me a line if I helped you 🍻
-
 &nbsp;
 
 <p align="center">
