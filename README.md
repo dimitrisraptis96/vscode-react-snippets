@@ -23,7 +23,7 @@ More TBA soon...
 You're ready to use your awesome snippet 💪
 
 <p align="center">
-  <img src ="./assets/installation.gif" />
+  <img src ="./assets/save.gif" />
 </p>
 
 ## 🤸‍♂️ Usage
