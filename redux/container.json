@@ -17,7 +17,7 @@
       "  };",
       "};",
       "",
-      "class $1 extends React.Component {",
+      "class $TM_FILENAME_BASE extends React.Component {",
       "  state = {",
       "    $6",
       "  }",
@@ -33,7 +33,7 @@
       "export default connect(",
       "  mapStateToProps,",
       "  mapDispatchToProps",
-      ")($1);",
+      ")($TM_FILENAME_BASE);",
       ""
     ],
     "description": "Redux connected container"
