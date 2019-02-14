@@ -5,9 +5,13 @@ A curated list of useful ReactJs snippets that can skyrocket your development ti
 ## ✔ List of supported snippets
 
 - Javascript
+- CSS
 - ReactJS
 - styled-components
 - redux
+
+More TBA soon...
+
 
 ## 🔌 Installation
 
