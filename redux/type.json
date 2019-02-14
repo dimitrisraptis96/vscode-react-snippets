@@ -1,0 +1,9 @@
+{
+  "Redux type creator": {
+    "prefix": "type",
+    "body": [
+      "export const $1 = '$1';"
+    ],
+    "description": "Create a redux action type",
+  },
+}
