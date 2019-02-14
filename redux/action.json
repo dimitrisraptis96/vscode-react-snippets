@@ -2,10 +2,10 @@
   "Redux action creator": {
     "prefix": "action",
     "body": [
-      "export const $1 = ($2) => {",
+      "export function $1($2) {",
       "\treturn {",
       "\t\ttype: $3,",
-      "\t\tpayload: { $4 },",
+      "\t\t$2,",
       "\t};",
       "};",
       "$5"
