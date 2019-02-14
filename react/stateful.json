@@ -4,7 +4,7 @@
     "body": [
       "import React from 'react';",
       "",
-      "class $1 extends React.Component {",
+      "class $1:TM_FILENAME_BASE extends React.Component {",
       "\t",
       "\tstate = {",
       "\t\t$2: $3,",
@@ -18,7 +18,7 @@
       "\t}",
       "};",
       "",
-      "export default $1;",
+      "export default $1:TM_FILENAME_BASE;",
       ""
     ],
     "description": "Stateful component skeleton"
