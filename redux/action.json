@@ -1,0 +1,15 @@
+{
+  "Redux action creator": {
+    "prefix": "action",
+    "body": [
+      "export const $1 = ($2) => {",
+      "\treturn {",
+      "\t\ttype: $3,",
+      "\t\tpayload: { $4 },",
+      "\t};",
+      "};",
+      "$5"
+    ],
+    "description": "Create a redux action creator",
+  },
+}
