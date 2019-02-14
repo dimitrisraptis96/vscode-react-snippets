@@ -1,0 +1,41 @@
+{
+  "Redux connected container": {
+    "prefix": "container",
+    "body": [
+      "import React from \"react\";",
+      "import { connect } from \"react-redux\";",
+      "",
+      "const mapStateToProps = (state) => {",
+      "  return {",
+      "    $2,",
+      "  };",
+      "};",
+      "",
+      "const mapDispatchToProps = (dispatch) => {",
+      "  return {",
+      "    $3: ($4) => dispatch($5),",
+      "  };",
+      "};",
+      "",
+      "class $1 extends React.Component {",
+      "  state = {",
+      "    $6",
+      "  }",
+      "",
+      "  render() {",
+      "    $7",
+      "    return (",
+      "      $8",
+      "    );",
+      "  }",
+      "};",
+      "",
+      "export default connect(",
+      "  mapStateToProps,",
+      "  mapDispatchToProps",
+      ")($1);",
+      ""
+    ],
+    "description": "Redux connected container"
+  }
+}
