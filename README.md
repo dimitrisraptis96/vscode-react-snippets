@@ -3,7 +3,7 @@
 A curated list of useful ReactJs snippets that can skyrocket your development time and productivity 🧠
 
 > Do you want to learn the basics of VS Code snippets? 
-Check my detailed [post](https://medium.com/p/a3dfed114a8c/edit) on Medium.
+Check my detailed [post](https://medium.com/@dmraptis/vs-code-snippets-skyrocket-your-development-in-1-minute-a3dfed114a8c) on Medium.
 
 ## 📋 List of supported snippets
 
