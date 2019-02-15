@@ -36,6 +36,9 @@ You're ready to use your awesome snippet 💪
   <img src ="./assets/usage.gif" />
 </p>
 
+Do you want learn more info about the VS Code snippets? Check my detailed [post](https://medium.com/p/a3dfed114a8c/edit) on Medium. 
+
+
 &nbsp;
 
 <p align="center">
