@@ -1,0 +1,14 @@
+{
+  "Redux mapStateToProps": {
+    "prefix": "rdx-state",
+    "body": [
+      "const mapStateToProps = (state) => {",
+      "  return {",
+      "    $2,",
+      "  };",
+      "};",
+      "",
+    ],
+    "description": "Create mapStateToProps() function for redux connect()"
+  },
+}
