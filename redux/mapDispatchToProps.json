@@ -1,0 +1,14 @@
+{
+  "Redux mapDispatchToProps": {
+    "prefix": "rdx-dispatch",
+    "body": [
+      "const mapDispatchToProps = (dispatch) => {",
+      "  return {",
+      "    $3: ($4) => dispatch($5($4)),",
+      "  };",
+      "};",
+      "$0",
+    ],
+    "description": "Create mapDispatchToProps() function for redux connect()"
+  },
+}
