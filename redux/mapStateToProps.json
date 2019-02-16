@@ -4,10 +4,10 @@
     "body": [
       "const mapStateToProps = (state) => {",
       "  return {",
-      "    $2,",
+      "    $1,",
       "  };",
       "};",
-      "",
+      "$0",
     ],
     "description": "Create mapStateToProps() function for redux connect()"
   },
