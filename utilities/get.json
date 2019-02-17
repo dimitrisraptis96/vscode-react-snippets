@@ -1,0 +1,17 @@
+{
+  "Build axios GET HTTP request": {
+    "prefix": "get",
+    "body": [
+      "axios.get(${1:url})",
+      "  .then((response) => {",
+      "    $3",
+      "  })",
+      "  .catch((error) => {",
+      "    $4",
+      "  });",
+      "$5"
+    ],
+    "description": "Axios GET HTTP request builder"
+  },
+
+}
