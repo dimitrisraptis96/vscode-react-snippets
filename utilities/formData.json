@@ -1,0 +1,11 @@
+  {
+    Build FormData object": {
+      "prefix": "fd",
+      "body": [
+        "const formData = new FormData();",
+        "formData.append(\"$1\", $2);",
+        "$0"
+      ],
+      "description": "FormData object builder"
+  },
+}
