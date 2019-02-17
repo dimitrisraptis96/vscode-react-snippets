@@ -1,0 +1,16 @@
+{
+  "Build axios POST HTTP request": {
+    "prefix": "post",
+    "body": [
+      "axios.post(${1:url}, ${2:data})",
+      "  .then((response) => {",
+      "    $3",
+      "  })",
+      "  .catch((error) => {",
+      "    $4",
+      "  });",
+      "$5"
+    ],
+    "description": "Axios POST HTTP request builder"
+  },
+}
