@@ -1,0 +1,19 @@
+{
+    "prettier.arrowParens": "always",
+    "prettier.trailingComma": "es5",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.autoSave": "off",
+    "editor.tabSize": 2,
+    "breadcrumbs.enabled": false,
+    "editor.detectIndentation": false,
+    "zenMode.centerLayout": false,
+    "zenMode.hideTabs": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.snippetSuggestions": "top",
+    "workbench.editor.enablePreview": false,
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#212121",
+      "titleBar.activeBackground": "#212121",
+      "titleBar.activeForeground": "#fa8072"
+    }
+}
