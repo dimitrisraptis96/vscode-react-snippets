@@ -1,0 +1,21 @@
+{
+  "Theme props shortcut": {
+    "prefix": "theme",
+    "body": [
+      "${(props) => props.theme.$1}$2",
+    ],
+    "description": "access styled-components theme"
+  },
+
+  "Flexbox builder": {
+    "prefix": "flex",
+    "body": [
+      "display: flex;",
+      "flex-direction: ${1:row};",
+      "justify-content: ${2:center};",
+      "align-items: ${3:center};",
+      "$4",
+    ],
+    "description": "Add a flexbox skeleton"
+  }
+}
