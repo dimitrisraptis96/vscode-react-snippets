@@ -1,0 +1,207 @@
+{
+  "Stateless React component": {
+    "prefix": "dumb",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const $TM_FILENAME_BASE = ({$2:defaultProp}) => {",
+      "  $3",
+      "  return(",
+      "    $4",
+      "  );",
+      "};",
+      "",
+      "export default $TM_FILENAME_BASE;",
+      ""
+    ],
+    "description": "Create a stateless React component"
+  },
+
+  "Statefull component": {
+    "prefix": "clever",
+    "body": [
+      "import React from 'react';",
+      "",
+      "class $TM_FILENAME_BASE extends React.Component {",
+      "  ",
+      "  state = {",
+      "    $2: $3,",
+      "  }",
+      "",
+      "  render(){",
+      "    $4",
+      "    return(",
+      "      $5",
+      "    );",
+      "  }",
+      "};",
+      "",
+      "export default $TM_FILENAME_BASE;",
+      ""
+    ],
+    "description": "Stateful component skeleton"
+  },
+
+  "Styled Skeleton": {
+    "prefix": "styled",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "const $1 = styled.$2`",
+      "  $3",
+      "`;"
+    ],
+    "description": "styled-components skeleton"
+  },
+
+  "Print to console": {
+    "prefix": "log",
+    "body": ["console.log($1);", "$2"],
+    "description": "Log output to console"
+  },
+
+  "Redux action creator": {
+    "prefix": "action",
+    "body": [
+      "export function $1($2) {",
+      "  return {",
+      "    type: $3,",
+      "    $2,",
+      "  };",
+      "};",
+      "$5"
+    ],
+    "description": "Create a redux action creator"
+  },
+
+  "Redux connected container": {
+    "prefix": "container",
+    "body": [
+      "import React from \"react\";",
+      "import { connect } from \"react-redux\";",
+      "",
+      "const mapStateToProps = (state) => {",
+      "  return {",
+      "    $2,",
+      "  };",
+      "};",
+      "",
+      "const mapDispatchToProps = (dispatch) => {",
+      "  return {",
+      "    $3: ($4) => dispatch($5),",
+      "  };",
+      "};",
+      "",
+      "class $TM_FILENAME_BASE extends React.Component {",
+      "  state = {",
+      "    $6",
+      "  }",
+      "",
+      "  render() {",
+      "    $7",
+      "    return (",
+      "      $8",
+      "    );",
+      "  }",
+      "};",
+      "",
+      "export default connect(",
+      "  mapStateToProps,",
+      "  mapDispatchToProps",
+      ")($TM_FILENAME_BASE);",
+      ""
+    ],
+    "description": "Redux connected container"
+  },
+
+  "Redux type creator": {
+    "prefix": "type",
+    "body": ["export const $1 = '$1';"],
+    "description": "Create a redux action type"
+  },
+
+  "Redux mapStateToProps": {
+    "prefix": "rdx-state",
+    "body": [
+      "const mapStateToProps = (state) => {",
+      "  return {",
+      "    $1,",
+      "  };",
+      "};",
+      "$0",
+    ],
+    "description": "Create mapStateToProps() function for redux connect()"
+  },
+
+  "Redux mapDispatchToProps": {
+    "prefix": "rdx-dispatch",
+    "body": [
+      "const mapDispatchToProps = (dispatch) => {",
+      "  return {",
+      "    $3: ($4) => dispatch($5($4)),",
+      "  };",
+      "};",
+      "$0",
+    ],
+    "description": "Create mapDispatchToProps() function for redux connect()"
+  },
+
+  "Redux API middleware": {
+    "prefix": "api",
+    "body": [
+      "export function $1(${2:data}) {",
+      "  return apiAction({",
+      "    method: '${3|POST,GET|}',",
+      "    ${2:data},",
+      "    url: API_ENDPOINTS.$4,",
+      "    onSuccess: $5,",
+      "    onFailure: $6,",
+      "    label: '$7',",
+      "  });",
+      "}",
+    ],
+    "description": "Redux API middleware apiAction creator"
+  },
+
+  "Build axios POST HTTP request": {
+    "prefix": "post",
+    "body": [
+      "axios.post(${1:url}, ${2:data})",
+      "  .then((response) => {",
+      "    $3",
+      "  })",
+      "  .catch((error) => {",
+      "    $4",
+      "  });",
+      "$5"
+    ],
+    "description": "Axios POST HTTP request builder"
+  },
+
+  "Build axios GET HTTP request": {
+    "prefix": "get",
+    "body": [
+      "axios.get(${1:url})",
+      "  .then((response) => {",
+      "    $3",
+      "  })",
+      "  .catch((error) => {",
+      "    $4",
+      "  });",
+      "$5"
+    ],
+    "description": "Axios GET HTTP request builder"
+  },
+
+  "Build FormData object": {
+    "prefix": "fd",
+    "body": [
+      "const formData = new FormData();",
+      "formData.append(\"$1\", $2);",
+      "$0"
+    ],
+    "description": "FormData object builder"
+  },
+
+
+}
