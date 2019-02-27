@@ -1,0 +1,9 @@
+{
+  "Theme props shortcut": {
+    "prefix": "theme",
+    "body": [
+      "${props => props.theme.$1}$2",
+    ],
+    "description": "access styled-components theme"
+  },
+}
